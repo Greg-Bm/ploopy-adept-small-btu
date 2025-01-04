@@ -22,7 +22,10 @@ Even though the top part consists of 2 separate parts, it looks like a unibody p
 1. 38mm-top-buttons.step: the top frame with buttons and a cut-out for the track ball support insert (2)
 2. 38mm-top-trackball.step: the trackball insert where the bearings and the trackball should be placed. It fits in the cut-out of the piece (1)
 3. 38mm-usb-insert.step: a small usb insert to cover the usb-c hole
-4. 38mm-bottom: the bottom part of the case, where the pcb should be placed
+4. 38mm-bottom.step: the bottom part of the case, where the pcb should be placed
+5. 38mm-cover-keycaps.step (optional): a cover to the top, so you can add another finish to the top of the trackball and keycaps. These can be printed in different colors for some extra personalization and/or with a smaller layer height for a smoother surface :)
+
+<img src="./images/38mm/38mm-cover-keycaps.png" width="300"/>
 
 ## Printing instructions/remarks
 
@@ -53,8 +56,9 @@ See Mechanicals section above for the part numbers.
 4. Insert the 4 thread inserts in the 4 holes on the corners of the bottom of part #1, using a heat-insertion tool or a soldering iron. I would recommend a proper heat-insertion tool like [this one](https://www.amazon.de/dp/B0C5CC2QB9/ref=pe_27091401_487027711_TE_SCE_dp_i1), since these thread inserts are quite small
 5. Place the PCB in the sunken area of part #4
 6. Place the part #3 in the USB opening. It should just slide in.
-7. Place the top part over the bottom part making sure that the optics are aligned correctly
-8. Screw the bottom to the top. Start by screwing all the screws half in and them tighten them up.
+7. Place the top part over the bottom part making sure that the optics are aligned correctly. The bottom part has some small guides that should help placing the top correctly and holding it in place.
+8. Screw the bottom to the top. Start by screwing all the screws half in and then tighten them up.
+9. (OPTIONAL) Glue part #5 to the top of the trackball
 
 # 34mm trackball
 
@@ -90,4 +94,4 @@ There are 3 files: top, bottom and usb-insert. The usb-insert is a very small pi
 4. Place the PCB in the sunken area of the bottom part
 5. Place the USB-insert in the USB opening. It should just slide in.
 6. Place the top part over the bottom part making sure that the optics are aligned correctly
-7. Screw the bottom to the top. Start by screwing all the screws half in and them tighten them up.
+7. Screw the bottom to the top. Start by screwing all the screws half in and then tighten them up.
