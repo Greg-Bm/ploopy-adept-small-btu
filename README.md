@@ -19,13 +19,10 @@ Even though the top part consists of 2 separate parts, it looks like a unibody p
 
 <img src="./images/38mm/38mm-design-view.png" width="600"/>
 
-1. 38mm-top-buttons.step: the top frame with buttons and a cut-out for the track ball support insert (2)
-2. 38mm-top-trackball.step: the trackball insert where the bearings and the trackball should be placed. It fits in the cut-out of the piece (1)
-3. 38mm-usb-insert.step: a small usb insert to cover the usb-c hole
-4. 38mm-bottom.step: the bottom part of the case, where the pcb should be placed
-5. 38mm-cover-keycaps.step (optional): a cover to the top, so you can add another finish to the top of the trackball and keycaps. These can be printed in different colors for some extra personalization and/or with a smaller layer height for a smoother surface :)
-
-<img src="./images/38mm/38mm-cover-keycaps.png" width="300"/>
+1. 38mm-top-buttons.step: the top frame with buttons and a cut-out for the track ball support insert (part #2)
+2. 38mm-top-trackball.step: the trackball insert where the bearings and the trackball should be placed. It fits in the cut-out of the part #1
+3. 38mm-bottom.step: the bottom part of the case, where the pcb should be placed
+4. (OPTIONAL) 38mm-cover-keycaps.step: a cover to the top, so you can add another finish to the top of the trackball and keycaps. These can be printed in different colors for some extra personalization and/or with a smaller layer height for a smoother surface :)
 
 ## Printing instructions/remarks
 
@@ -42,23 +39,23 @@ No supports should be needed.
 - 4 M2 x 10mm countersunk screws. I used [these ones](https://www.amazon.de/-/en/gp/product/B0D6QXRH6H/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&th=1)
 - A 38.1mm trackball (1.5 inch). I have used my Ploopy Nano trackball. You can either buy a billiard ball or something more fit for purpose like this ones from [gamingtrackball](https://www.gamingtrackball.com/products/yellow-and-silver-add-on-balls)
 - 3 BTU bearings [KU-B8-OFK R053010810](https://store.boschrexroth.com/BALL-TRANSFER-UNIT_R053010810?cclcl=en_MY)
+- (OPTIONAL) Superglue to put some of the parts together
 
 ## Assembly
 
 See Mechanicals section above for the part numbers.
 
 1. Print all the parts
-2. Insert the 3 BTU bearings on part #2. There is some clearance, so you should not need to push very hard, only a bit of force is necessary.
-3. Insert part #2 into the cut-out of part #1, making sure that the flat part of the optics cut-out is the round edge of the case (see picture below). Make sure that the bottom aligns perfectly. The part should stay in place, but you may choose to glue them together, if you prefer.
+2. (OPTIONAL) Glue part #5 to part #1
+3. Insert the 3 BTU bearings on part #2. There is some clearance, so you should not need to push very hard, only a bit of force is necessary.
+4. Insert part #2 into the cut-out of part #1, making sure that the flat part of the optics cut-out is the round edge of the case (see picture below). Make sure that the bottom aligns perfectly. The part should stay in place, but you may choose to glue them together, if you prefer.
 
 <img src="./images/38mm/38mm-assembly-top.png" width="300"/>
 
-4. Insert the 4 thread inserts in the 4 holes on the corners of the bottom of part #1, using a heat-insertion tool or a soldering iron. I would recommend a proper heat-insertion tool like [this one](https://www.amazon.de/dp/B0C5CC2QB9/ref=pe_27091401_487027711_TE_SCE_dp_i1), since these thread inserts are quite small
-5. Place the PCB in the sunken area of part #4
-6. Place the part #3 in the USB opening. It should just slide in.
+5. Insert the 4 thread inserts in the 4 holes on the corners of the bottom of part #1, using a heat-insertion tool or a soldering iron. I would recommend a proper heat-insertion tool like [this one](https://www.amazon.de/dp/B0C5CC2QB9/ref=pe_27091401_487027711_TE_SCE_dp_i1), since these thread inserts are quite small
+6. Place the PCB in the sunken area of part #3
 7. Place the top part over the bottom part making sure that the optics are aligned correctly. The bottom part has some small guides that should help placing the top correctly and holding it in place.
 8. Screw the bottom to the top. Start by screwing all the screws half in and then tighten them up.
-9. (OPTIONAL) Glue part #5 to the top of the trackball
 
 # 34mm trackball
 
