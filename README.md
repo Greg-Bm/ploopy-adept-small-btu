@@ -8,6 +8,8 @@ There are 2 versions, one for a 34mm trackball and another for a 38.1mm trackbal
 
 Enjoy it! Feedback and contributions are very welcome :).
 
+You can also [buy me a coffee](https://www.paypal.com/donate/?business=VJKKWDQV7A8DU&no_recurring=0&item_name=Buy+me+a+coffee%21&currency_code=USD) if you enjoy it that much :)
+
 # 38.1mm trackball (1.5 inch)
 
 <img src="./images/38mm/trackball.jpg" width="600"/>
