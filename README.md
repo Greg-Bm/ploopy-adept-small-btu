@@ -16,4 +16,6 @@ There are 3 versions:
 
 I would obviously recommend going for the V3, but it is up to you to choose. You can find assembly instructions by browsing into the folder of each the versions.
 
-Enjoy it! Feedback and contributions are very welcome :).
+Enjoy it! Feedback and contributions are very welcome.
+
+You can also [buy me a coffee](https://www.paypal.com/donate/?business=VJKKWDQV7A8DU&no_recurring=0&item_name=Buy+me+a+coffee%21&currency_code=USD) if you enjoy it that much :)
