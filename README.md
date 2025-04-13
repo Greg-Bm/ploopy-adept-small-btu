@@ -14,7 +14,7 @@ There are 3 versions:
 
 - [V3](./v3/): which has trackball supports for both 34mm and 38.1mm trackballs. It is somewhat the same as V2, but with aesthetical improvements and slight improvements on the buttons too. In V3, the top and bottom of the case are the same, whether you choose to use a 34mm or a 38.1mm trackball, but you need to choose the correct track ball support.
 
-I would obviously recommend going for the V3, but it is up to you to choose. You can find assembly instructions by browsing into the folder of each the versions.
+I would obviously recommend going for the V3, but it is up to you to choose. You can find assembly instructions by browsing into the folder of each of the versions.
 
 Enjoy it! Feedback and contributions are very welcome.
 
