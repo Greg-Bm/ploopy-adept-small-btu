@@ -1,6 +1,7 @@
 # V3 - 34mm and 38.1mm (1.5 inch) trackball
 
-<img src="./images/v3-trackball.jpg" width="600"/>
+<img src="./images/v3-side-picture.jpg" height="400"/>
+<img src="./images/v3-two-balls-picture.jpg" height="400"/>
 
 This design consists of 4 parts, see the mechanicals section for the explanation. It prints without supports and require minimal assembly.
 Even though the top part consists of 2 separate parts, it looks like a unibody part after assembly.
