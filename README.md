@@ -2,7 +2,7 @@
 
 A small Ploopy Adept case with BTU bearings
 
-<img src="./images/v3-trackball.jpg" width="400"/>
+<img src="./v3/images/v3-side-picture.jpg" width="400"/>
 
 I really like the Ploopy Adept hardware, but I wanted something smaller and lower to use between the two parts of my split keyboard. So I created this case for the Ploopy Adept, which is pretty small and low.
 
