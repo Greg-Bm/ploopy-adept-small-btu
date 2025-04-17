@@ -16,6 +16,8 @@ There are 3 versions:
 
 I would obviously recommend going for the V3, but it is up to you to choose. You can find assembly instructions by browsing into the folder of each of the versions.
 
+If you would like to user other bearings instead of BTUs, there are adapters available [here](https://github.com/adept-anyball/mod/tree/master/adapters).
+
 Enjoy it! Feedback and contributions are very welcome.
 
 You can also [buy me a coffee](https://www.paypal.com/donate/?business=VJKKWDQV7A8DU&no_recurring=0&item_name=Buy+me+a+coffee%21&currency_code=USD) if you enjoy it that much :)
