@@ -35,11 +35,14 @@ btu_a = 1.9;
 //btu_a = 1;
 
 // raw dimensions for tracking ball
-ball_d = 25;
+ball_d = 21.8;
 ball_e = 2;
 
 // angle of btus. adjust as needed.
-phi = 70;
+phi = 75;
+
+// how much the btu housing points down.
+deflection = 20;
 
 // extra space in front of btu rim. adjust as needed.
 btu_clearance = ball_d/2;
@@ -105,7 +108,7 @@ module virtual_btu_atzero(clearance=0){
 }
 
 module virtual_btu(clearance=0){
-translate(ball_h * vz) rotate(-phi * vx) translate(-(ball_r + btu_rw)*vz) virtual_btu_atzero(clearance);
+translate(ball_h * vz) rotate(-phi * vx) translate(-(ball_r + btu_rw)*vz) rotate(deflection * vx) virtual_btu_atzero(clearance);
 }
 
 module btu_holder_atzero(){
@@ -114,7 +117,7 @@ module btu_holder_atzero(){
 }
 
 module btu_holder(){
-    translate(ball_h * vz) rotate(-phi * vx) translate(-(ball_r + btu_rw)*vz) btu_holder_atzero();
+    translate(ball_h * vz) rotate(-phi * vx) translate(-(ball_r + btu_rw)*vz) rotate(deflection * vx) btu_holder_atzero();
 }
 
 module btu_holders(){
