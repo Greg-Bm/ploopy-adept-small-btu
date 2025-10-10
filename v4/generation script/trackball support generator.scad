@@ -14,6 +14,9 @@ cup_tolerance = 0.1;
 // can be useful if you want to be able to pry btus out easily.
 brim_rim_gap = 0.5;
 
+// btu cups will be cut off at and below this level.
+cup_floor=0;
+
 // raw dimensions of the btu.
 // dimensions names like those for bosch rexroth R053010810: https://store.boschrexroth.com/en/us/p/ball-transfer-unit-r053010810
 // for other btus, derive the dimensions corresponding to those for the bosch btu.
@@ -142,7 +145,7 @@ difference(){
         base();
         difference(){
         btu_holders();
-            below(2);
+            below(cup_floor);
         }
         filler();
     }
