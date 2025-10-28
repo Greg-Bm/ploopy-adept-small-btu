@@ -1,6 +1,14 @@
 // this openscad file lets you generate supports for trackballs of various sizes. it also supports several different types of btus, e.g. bosch and veichu.
 
+// units for americans
+INCH = 25.4;
 
+
+// support column parameter. for large balls
+add_support_columns=true;
+suph = 10; // height
+supr = 4; // radius
+supfwd = 3; // forward
 
 
 // Global resolution
@@ -38,22 +46,22 @@ btu_a = 1.9;
 //btu_a = 1;
 
 // raw dimensions for tracking ball
-ball_d = 21.8;
+ball_d = 52;
 ball_e = 2;
 
 // angle of btus. adjust as needed.
-phi = 75;
+phi = 70;
 
 // how much the btu housing points down.
-deflection = 20;
+deflection = 15;
 
 // extra space in front of btu rim. adjust as needed.
 btu_clearance = ball_d/2;
 
 
 //thickness of btu cup walls. adjust as needed.
-holder_side_wall=1;
-holder_back_wall=4;
+holder_side_wall=1;//(btu_D1 - btu_D)/2;
+holder_back_wall=2;
 
 
 // derived btu dimensions
@@ -139,6 +147,15 @@ module below(h){
     translate(h*vz)rotate(vy*180)cylinder(r=60,h=60);
 }
 
+
+back = sin(phi) * (ball_r + btu_rw) + sin(phi - deflection) * (btu_H - btu_rw) + sin(phi - deflection - 90) * (btu_D/2);
+module cup_support(){
+    translate((supfwd - back)*vy+4*vz) cylinder(r=supr, h=suph);
+}
+module cup_supports(){
+    for(t=[0:120:359])rotate(vz*t)cup_support();
+}
+
 color("grey")
 difference(){
     union(){
@@ -147,6 +164,8 @@ difference(){
         btu_holders();
             below(cup_floor);
         }
+        if (add_support_columns)
+        cup_supports();
         filler();
     }
     union(){
